@@ -7,3 +7,10 @@ Install it into the Arduino libraries folder.
 This library depends on [ArduinoJson](https://github.com/bblanchon/ArduinoJson).
 
 ## Getting Started.
+```
+KeyValueEEPROM.begin();
+KeyValueEEPROM.clear();
+KeyValueEEPROM.get<DataType>(String name);
+KeyValueEEPROM.set<DataType>(String name, DataType value);
+KeyValueEEPROM.save();
+```
