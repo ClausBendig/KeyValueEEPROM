@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map KeyValueEEPROM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+KeyValueEEPROM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+clear	KEYWORD2
+save	KEYWORD2
+get	KEYWORD2
+set	KEYWORD2
+exists	KEYWORD2
+getJSON	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
