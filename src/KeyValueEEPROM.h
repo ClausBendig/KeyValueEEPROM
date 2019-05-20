@@ -47,7 +47,7 @@ class KeyValueEEPROMClass {
                 // Remove key.
                 root->remove(key);
         };
-        void save() {
+        void apply() {
                 // Clear the EEPROM.
                 clearEEPROM();
 

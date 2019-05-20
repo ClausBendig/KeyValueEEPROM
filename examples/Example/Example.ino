@@ -26,7 +26,7 @@ void setup() {
   KeyValueEEPROM.set<String>("Surname", "John");
 
   // Save to EEPROM.
-  KeyValueEEPROM.save();
+  KeyValueEEPROM.apply();
 
   // Print current written values.
   Serial.println("\nCurrent written values:");
