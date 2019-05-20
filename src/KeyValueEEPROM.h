@@ -42,6 +42,13 @@ class KeyValueEEPROMClass {
 
                 // Create JSON root object.
                 root = &jsonBuffer.createObject();
+
+                // Extract JSON data from the root object.
+                String json;
+                root->printTo(json);
+
+                // Write to the EEPROM.
+                writeEEPROM(json);
         };
         void save() {
                 // Clear the EEPROM.
