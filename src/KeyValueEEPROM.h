@@ -63,7 +63,7 @@ class KeyValueEEPROMClass {
         };
         template <typename T>
         T get(String key) {
-                String value = (*root)[key].as<T>();
+                T value = (*root)[key].as<T>();
                 return value;
         };
         template <typename T>
